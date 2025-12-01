@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Aria Bennett",
+    "role": "Software Engineer",
+    "department": "Engineering",
+    "location": "Berlin",
+    "lastActive": "2025-01-12"
+  },
+  {
+    "name": "Jacob Lin",
+    "role": "Product Manager",
+    "department": "Product",
+    "location": "London",
+    "lastActive": "2025-01-08"
+  },
+  {
+    "name": "Priya Desai",
+    "role": "UX Designer",
+    "department": "Design",
+    "location": "Mumbai",
+    "lastActive": "2025-02-01"
+  },
+  {
+    "name": "Marcus Ortega",
+    "role": "Data Analyst",
+    "department": "Analytics",
+    "location": "Toronto",
+    "lastActive": "2025-01-05"
+  },
+  {
+    "name": "Sofia Nguyen",
+    "role": "QA Engineer",
+    "department": "Quality",
+    "location": "Hanoi",
+    "lastActive": "2025-01-21"
+  },
+  {
+    "name": "Daniel Cho",
+    "role": "DevOps Engineer",
+    "department": "Infrastructure",
+    "location": "Seoul",
+    "lastActive": "2025-02-03"
+  },
+  {
+    "name": "Leila Karim",
+    "role": "Support Specialist",
+    "department": "Support",
+    "location": "Dubai",
+    "lastActive": "2025-01-19"
+  },
+  {
+    "name": "Tom Harris",
+    "role": "Intern",
+    "department": "Engineering",
+    "location": "Austin",
+    "lastActive": "2025-01-09"
+  }
+]
