@@ -2,12 +2,10 @@
 
 /**
  * Developer Study - Task Time Logger
- * -----------------------------------
  * Usage:
  *   pnpm log:start <task-id>
  *   pnpm log:end <task-id>
- *
- * Outputs to: /logs/timelog.json
+ * Writes to: logs/timelog.json
  */
 
 const fs = require("fs");
@@ -38,45 +36,36 @@ function start(taskId) {
   const logs = loadLogs();
 
   if (!logs[taskId]) logs[taskId] = {};
-
   logs[taskId].start = now();
   saveLogs(logs);
-
   console.log(`⏱️  Started task: ${taskId}`);
 }
 
 function end(taskId) {
   const logs = loadLogs();
-
   if (!logs[taskId] || !logs[taskId].start) {
     console.error("❌ Task was not started. Run: pnpm log:start <task-id>");
     process.exit(1);
   }
-
   logs[taskId].end = now();
 
   const startTime = new Date(logs[taskId].start);
   const endTime = new Date(logs[taskId].end);
   const durationMs = endTime - startTime;
   const durationMin = (durationMs / 1000 / 60).toFixed(2);
-
   logs[taskId].duration_minutes = durationMin;
 
   saveLogs(logs);
-
   console.log(`✅ Ended task: ${taskId}`);
   console.log(`⏲️ Duration: ${durationMin} minutes`);
 }
 
 const [command, taskId] = process.argv.slice(2);
-
 if (!command || !taskId) {
   console.error("Usage: pnpm log:start <task-id>  OR  pnpm log:end <task-id>");
   process.exit(1);
 }
-
 ensureLogFile();
-
 if (command === "start") start(taskId);
 else if (command === "end") end(taskId);
 else console.error("Unknown command");
