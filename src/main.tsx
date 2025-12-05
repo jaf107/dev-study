@@ -16,11 +16,7 @@ import "./index.css";
 //   return <ThemeProvider theme={theme}>{children}</ThemeProvider>;
 // }
 
-/* ========== Chakra UI (example) ========== */
-// import { ChakraProvider } from "@chakra-ui/react";
-// function Provider({ children }: { children: React.ReactNode }) {
-//   return <ChakraProvider>{children}</ChakraProvider>;
-// }
+
 
 /* ========== Fluent UI (example) ========== */
 // import { FluentProvider, webLightTheme } from "@fluentui/react-components";

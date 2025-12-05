@@ -24,7 +24,7 @@ This repository contains the setup for a developer study on design system usage.
 
 ## Design System Setup
 
-The project supports Material UI, Chakra UI, and Fluent UI.
+The project supports Material UI, Carbon Design System, and Fluent UI.
 **You must manually enable your assigned design system.**
 
 1.  Open \`src/main.tsx\`.

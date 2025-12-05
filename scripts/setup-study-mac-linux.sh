@@ -18,7 +18,7 @@ pnpm install
 
 echo "🧱 Installing study-specific packages..."
 pnpm add @mui/material @emotion/react @emotion/styled \
-  @chakra-ui/react @chakra-ui/icons framer-motion \
+  @carbon/react \
   @fluentui/react @fluentui/react-components
 
 echo "🏗️ Building project..."

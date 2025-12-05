@@ -15,7 +15,7 @@ This study explores how developers use design systems to build common UI compone
 3.  **Open the app:** Go to \`http://localhost:5173\` (or the URL shown in the terminal).
 
 ## Design System Assignment
-You have been assigned one of the following design systems: **Material UI**, **Chakra UI**, or **Fluent UI**.
+You have been assigned one of the following design systems: **Material UI**, **Carbon Design System**, or **Fluent UI**.
 
 **Before starting Task 1:**
 1.  Open \`src/main.tsx\`.
