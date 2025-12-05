@@ -10,7 +10,7 @@ export default function Task4(): React.JSX.Element {
   return (
     <div style={{ padding: 24 }}>
       <h1>Task (implement here)</h1>
-      <p>Open the corresponding README.md to view the task prompt.</p>
+      <p>Open src/tasks/tasks.md to view the task prompt.</p>
       <pre>{JSON.stringify(data, null, 2)}</pre>
     </div>
   );

@@ -25,6 +25,7 @@ import "./index.css";
 // }
 
 /* ========== Default Provider (no DS) ========== */
+// eslint-disable-next-line react-refresh/only-export-components
 function Provider({ children }: { children: React.ReactNode }) {
   return <>{children}</>;
 }
