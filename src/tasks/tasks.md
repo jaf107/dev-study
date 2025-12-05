@@ -1,96 +1,101 @@
-# Developer Tasks
 
-Below are the five tasks you will complete using the design system.  
-Please follow component APIs, layout guidelines, and patterns described in the documentation.
 
----
+## **Task 1 — Build a Multi-Field Registration Form**
 
-## **Task 1 — Build a Multi-Field Form**
+Create a registration form using the design system's form components and layout primitives.
 
-Create a simple form using the design system’s form components.
+### **Requirements:**
 
-Your form should include:
+* Include Full Name, Email, Password, and Confirm Password fields
+* Include helper text for Full Name and Email
+* Show an error message when the email is entered incorrectly
+* Include a show/hide toggle for the password field
+* Add a primary action button labeled **Create Account**
 
-- A page title and short description  
-- Four fields: **Full Name**, **Email**, **Password**, **Confirm Password**  
-- A primary action button (**Create Account**)  
-- Optional helper text where appropriate  
+### **Additional Notes:**
 
-Focus on organizing the form using the design system’s layout primitives and form controls.
+* Design should be clean and readable across devices
+* Layout should feel natural and use consistent spacing and sizing
 
 ---
 
 ## **Task 2 — Build a Responsive Card Grid**
 
-Use the design system’s card components and grid/layout utilities to create a responsive grid.
+Create a responsive layout displaying a set of informational cards using design system components.
 
-**Requirements:**
+### **Requirements:**
 
-- Display **eight cards**  
-- Each card should contain:  
-  - A title  
-  - A short description paragraph (2–3 lines)  
-  - A **View Details** button  
+* Create a grid of 8 cards
+* Each card must include:
 
-**Layout behavior:**
+  * A title
+  * A short paragraph of text
+  * A badge indicating status (e.g. Published, Draft)
+  * A thumbnail image
+  * A **View Details** button
 
-- **4 columns** on large screens  
-- **2 columns** on medium screens  
-- **1 column** on small screens  
+### **Responsive Behavior:**
 
-This task focuses on responsive layouts and compositional patterns.
+* Use different column counts based on screen width (e.g. 4 → 2 → 1)
+* Ensure content is legible and aligned at all breakpoints
 
 ---
 
 ## **Task 3 — Build a Modal Dialog with Actions**
 
-Implement a modal using the design system’s modal components.
+Create a modal dialog using modal and form components from the design system.
 
-The modal should include:
+### **Requirements:**
 
-- A trigger button (**Open Modal**)  
-- A title (**Profile Update**)  
-- Two input fields  
-- A descriptive text block  
-- A footer with two actions:  
-  - **Save Changes** (primary)  
-  - **Cancel** (secondary)  
+* Include a trigger button labeled **Open Modal**
+* Inside the modal, include:
 
-Use the modal’s open/close APIs as documented in the design system.
+  * Title: **Profile Update**
+  * Two inputs (e.g., First Name, Phone Number)
+  * A tooltip for the Phone Number input
+  * Contextual text to help users understand the purpose
+  * Save Changes and Cancel buttons
 
----
+### **Interaction Expectations:**
 
-## **Task 4 — Build a Data Table with Sorting**
-
-Create a data table with structured rows and sortable headers.
-
-**Specifications:**
-
-- Columns: **Name**, **Role**, **Department**, **Location**, **Last Active**  
-- Include **8–10 rows** of sample data  
-- Columns **Name** and **Last Active** should be sortable  
-- Use the table primitives and interaction patterns from the design system  
-
-This task observes how developers work with structured components.
+* The modal should behave as expected using the system’s API and patterns
+* Inputs and buttons should be functional and usable in typical workflows
 
 ---
 
-## **Task 5 — Build a Navigation Bar with Interactive States**
+## **Task 4 — Build a Sortable and Reorderable Data Table**
 
-Construct a horizontal navigation bar using navigation or interactive components.
+Create a table using the design system’s table components.
 
-The navigation bar should include the following items:
+### **Requirements:**
 
-- Home  
-- Dashboard  
-- Projects  
-- Teams  
-- Settings  
+* Include 5 columns: Name, Role, Department, Location, Last Active
+* Populate the table with 8–10 rows of data
+* Make two columns sortable (e.g. Name and Last Active)
+* Enable row reordering through drag-and-drop and another interaction method (e.g. buttons)
 
-**Requirements:**
+### **Additional Notes:**
 
-- **Dashboard** should appear as the selected item  
-- Hover, active, and focus states should follow the design system’s interactive component guidelines  
-- Layout should remain stable across different viewport sizes  
+* Follow the design system’s documented approach to tables
+* Sorting and reordering behavior should be intuitive and maintainable
+
+---
+
+## **Task 5 — Build a Tasks Navigation Panel**
+
+Create a navigation interface that allows users to switch between the four UIs built in Tasks 1–4.
+
+### Requirements:
+
+* Present navigation links to: Multi-Field Form, Card Grid, Modal Dialog, and Data Table
+* Visually indicate the currently active task (e.g. “Multi-Field Form”)
+* On large screens, display the links as a horizontal or vertical list
+* On small screens, adapt the layout using a dropdown, toggleable panel, or drawer menu
+* Do not duplicate navigation patterns (e.g. avoid using both dropdown and link list at once)
+
+### Additional Notes:
+
+* Follow layout and component patterns from the chosen design system
+* Use a single, coherent navigation pattern that remains intuitive across viewports
 
 ---
