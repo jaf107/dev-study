@@ -5,22 +5,25 @@ This repository contains the setup for a developer study on design system usage.
 ## Getting Started
 
 1.  **Install Dependencies:**
-    \`\`\`bash
+
+    ```bash
     pnpm install
-    \`\`\`
+    ```
 
 2.  **Run the App:**
-    \`\`\`bash
+
+    ```bash
     pnpm dev
-    \`\`\`
+    ```
 
 3.  **Log Your Time:**
     Use the provided scripts to log the start and end time of each task.
-    \`\`\`bash
+
+    ```bash
     pnpm log:start task-1
     # ... work on task ...
     pnpm log:end task-1
-    \`\`\`
+    ```
 
 ## Design System Setup
 
