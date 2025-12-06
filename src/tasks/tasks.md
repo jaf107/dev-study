@@ -31,7 +31,8 @@ Create a responsive layout displaying a set of informational cards using design 
   * A title
   * A short paragraph of text
   * A badge indicating status (e.g. Published, Draft)
-  * A thumbnail image
+  * Status Badege - Atleast 2 should be Published, 2 should be Draft, 3 should be In Progress and 1 should be Cancelled
+  * A thumbnail image - please take any image from the internet and save it into the `/public` folder
   * A **View Details** button
 
 ### **Responsive Behavior:**
@@ -70,7 +71,7 @@ Create a table using the design system’s table components.
 ### **Requirements:**
 
 * Include 5 columns: Name, Role, Department, Location, Last Active
-* Populate the table with 8–10 rows of data
+* Populate the table with 8–10 rows of data. Data is in the `/data` folder.
 * Make two columns sortable (e.g. Name and Last Active)
 * Enable row reordering through drag-and-drop and another interaction method (e.g. buttons)
 
